@@ -1,0 +1,264 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "compras-emergenciais-covid-19",
+            "path": "data/compras-emergenciais-covid-19.csv",
+            "title": "Compras Emergenciais COVID-19",
+            "description": "Este arquivo cont\u00e9m rela\u00e7\u00e3o das contrata\u00e7\u00f5es celebradas pelo Governo de Minas Gerais com fulcro na Lei Federal n. 13.979 de 06 de fevereiro de 2020 para enfrentamento do coronav\u00edrus (COVID-19).",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "NUMERO_PROCESSO_COMPRA",
+                        "title": "N\u00famero do Processo de Compra\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "N\u00famero identificador do processo de compras no Portal de Compras"
+                    },
+                    {
+                        "name": "URL_PORTAL_TRANSPARENCIA",
+                        "title": "URL Portal da Transpar\u00eancia",
+                        "Tipo": "URL",
+                        "format": "default",
+                        "description": "Detalhamento do processo de compras no Portal da Transpar\u00eancia"
+                    },
+                    {
+                        "name": "DATA_CADASTRAMENTO_PROCESSO",
+                        "title": "Data de Cadastramento do Processo\u00a0",
+                        "type": "date",
+                        "format": "default",
+                        "description": "Data do cadastro do processo de compras"
+                    },
+                    {
+                        "name": "OBJETO_PROCESSO",
+                        "title": "Objeto do Processo\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Descri\u00e7\u00e3o dos bens e servi\u00e7os que est\u00e3o sendo comprados e sua finalidade"
+                    },
+                    {
+                        "name": "URL_DOCUMENTOS_PROCESSO",
+                        "title": "URL Documentos do Processo\u00a0",
+                        "Tipo": "URL",
+                        "format": "default",
+                        "description": "Rela\u00e7\u00e3o dos documentos do processo de compra: Edital e suas retifica\u00e7\u00f5es, relat\u00f3rio de detalhes de processo de compra, dados do preg\u00e3o e outros arquivos relacionados ao processo."
+                    },
+                    {
+                        "name": "CODIGO_ORGAO_DEMANDANTE",
+                        "title": "C\u00f3digo \u00d3rg\u00e3o Demandante\u00a0",
+                        "type": "number",
+                        "format": "default",
+                        "description": "C\u00f3digo do \u00f3rg\u00e3o ou entidade demandante"
+                    },
+                    {
+                        "name": "ORGAO_DEMANDANTE",
+                        "title": "\u00d3rg\u00e3o Demandante\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "\u00d3rg\u00e3o ou entidade que solicitou a compra de determinado material/servi\u00e7o. Pode coincidir ou n\u00e3o com o \u00f3rg\u00e3o que est\u00e1 executando o processo de compra."
+                    },
+                    {
+                        "name": "SITUACAO_PROCESSO",
+                        "title": "Situa\u00e7\u00e3o do Processo\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Situa\u00e7\u00e3o do processo de compra (conclu\u00eddo suspenso, em andamento, etc..). Quanto aos processos de compra com situa\u00e7\u00e3o em andamento, s\u00e3o considerados apenas os itens j\u00e1 homologados desses processos."
+                    },
+                    {
+                        "name": "PROCEDIMENTO_CONTRATACAO",
+                        "title": "Procedimento de Contrata\u00e7\u00e3o\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Inclui as modalidades de licita\u00e7\u00e3o (concorr\u00eancia, tomada de pre\u00e7os, convite e leil\u00e3o), preg\u00e3o, dispensa, inexigibilidade, registro de pre\u00e7os, etc."
+                    },
+                    {
+                        "name": "NUMERO_CONTRATO",
+                        "title": "N\u00famero do Contrato\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "N\u00famero do Contrato registrado no Sistema Integrado de Administra\u00e7\u00e3o Financeira de Minas Gerais (SIAFI-MG).  \"NA\" em caso de aus\u00eancia de Contratos por serem de entrega imediata."
+                    },
+                    {
+                        "name": "URL_INTEGRA_CONTRATO",
+                        "title": "URL \u00cdntegra Contrato",
+                        "Tipo": "URL",
+                        "format": "default",
+                        "description": "Link para \u00edntegra do termo do Contrato celebrado e seus eventuais termos aditivos ou modificativos."
+                    },
+                    {
+                        "name": "CODIGO_ORGAO_CONTRATO",
+                        "title": "C\u00f3digo \u00d3rg\u00e3o Contrato",
+                        "type": "number",
+                        "format": "default",
+                        "description": "C\u00f3digo do \u00f3rg\u00e3o ou entidade que formalizou o instrumento de contrata\u00e7\u00e3o."
+                    },
+                    {
+                        "name": "ORGAO_CONTRATO",
+                        "title": "\u00d3rg\u00e3o Contrato\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Nome do \u00f3rg\u00e3o ou entidade respons\u00e1vel pelo Contrato"
+                    },
+                    {
+                        "name": "DATA_PUBLICACAO",
+                        "title": "Data da Publica\u00e7\u00e3o\u00a0",
+                        "Tipo": "date",
+                        "format": "default",
+                        "description": "Data, no formato YYYY-MM-DD, de publica\u00e7\u00e3o do Contrato no IOF"
+                    },
+                    {
+                        "name": "INICIO_VIGENCIA",
+                        "title": "In\u00edcio da Vig\u00eancia\u00a0",
+                        "Tipo": "date",
+                        "format": "default",
+                        "description": "Data, no formato YYYY-MM-DD, de in\u00edcio da vig\u00eancia do Contrato"
+                    },
+                    {
+                        "name": "FIM_VIGENCIA",
+                        "title": "Fim da Vig\u00eancia\u00a0",
+                        "Tipo": "date",
+                        "format": "default",
+                        "description": "Data, no formato YYYY-MM-DD, de fim da vig\u00eancia do Contrato"
+                    },
+                    {
+                        "name": "FIM_VIGENCIA_ATUALIZADA",
+                        "title": "Fim da Vig\u00eancia Atualizada\u00a0",
+                        "Tipo": "date",
+                        "format": "default",
+                        "description": "Data, no formato YYYY-MM-DD, atualizada do fim da vig\u00eancia do Contrato"
+                    },
+                    {
+                        "name": "CPF_CNPJ_CONTRATADO",
+                        "title": "CPF/CNPJ do Contratado\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "N\u00famero de identifica\u00e7\u00e3o do fornecedor. Pessoa Jur\u00eddica \u2013 CNPJ. Pessoa f\u00edsica - CPF. Formato: (eg. xx.xxx.xxx/yyyy-zz e xxx.xxx.xxx-zz)."
+                    },
+                    {
+                        "name": "CONTRATADO",
+                        "title": "Contratado\u00a0",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Nome da pessoa f\u00edsica ou jur\u00eddica contratada para prestar um servi\u00e7o ou entregar bens materiais ao Estado."
+                    },
+                    {
+                        "name": "PROCESSO_SEI",
+                        "title": "N\u00famero do Processo SEI",
+                        "type": "string",
+                        "format": "default",
+                        "description": "N\u00famero do processo eletr\u00f4nico no Sistema Eletr\u00f4nico de Informa\u00e7\u00f5es (SEI) que identifica a contrata\u00e7\u00e3o"
+                    },
+                    {
+                        "name": "URL_PROCESSO_SEI",
+                        "title": "URL \u00cdntegra Processo SEI",
+                        "Tipo": "URL",
+                        "format": "default",
+                        "description": "Link para consulta do processo eletr\u00f4nico no Sistema Eletr\u00f4nico de Informa\u00e7\u00f5es (SEI)"
+                    },
+                    {
+                        "name": "CODIGO_ITEM_MATERIAL_SERVICO",
+                        "title": "C\u00f3digo Item Material/Servi\u00e7o",
+                        "type": "number",
+                        "format": "default",
+                        "description": "C\u00f3digo do item de material ou servi\u00e7o adquirido pelo Estado."
+                    },
+                    {
+                        "name": "ITEM_MATERIAL_SERVICO",
+                        "title": "Item Material/Servi\u00e7o",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Descri\u00e7\u00e3o dos itens de materiais ou servi\u00e7os adquiridos pelo Estado."
+                    },
+                    {
+                        "name": "CODIGO_UNIDADE_ORCAMENTARIA",
+                        "title": "C\u00f3digo Unidade Or\u00e7ament\u00e1ria",
+                        "type": "number",
+                        "format": "default",
+                        "description": "C\u00f3digo da unidade or\u00e7ament\u00e1ria vinculada ao item material/servi\u00e7o."
+                    },
+                    {
+                        "name": "UNIDADE_ORCAMENTARIA",
+                        "title": "Unidade Or\u00e7ament\u00e1ria",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Nome da Unidade Or\u00e7ament\u00e1ria vinculada ao item material/servi\u00e7o."
+                    },
+                    {
+                        "name": "LINHA_FORNECIMENTO",
+                        "title": "Linha Fornecimento",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Descri\u00e7\u00e3o da linha de fornecimento vinculada ao item material/servi\u00e7o."
+                    },
+                    {
+                        "name": "CIDADE_ENTREGA",
+                        "title": "Cidade Entrega",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Nome da cidade de entrega vinculada ao item de material/servi\u00e7o"
+                    },
+                    {
+                        "name": "QUANTIDADE_HOMOLOGADA",
+                        "title": "Quantidade Homologada",
+                        "type": "number",
+                        "format": "default",
+                        "description": "Quantidade homologada para o item de material/servi\u00e7o"
+                    },
+                    {
+                        "name": "VALOR_REFERENCIA_UNITARIO",
+                        "title": "Valor Unit\u00e1rio Refer\u00eancia",
+                        "type": "number",
+                        "format": "default",
+                        "decimalChar": ",",
+                        "description": "Valor unit\u00e1rio estimado de um determinado bem ou servi\u00e7o, obtido por meio de pesquisa de mercado ou cadastro de pre\u00e7os."
+                    },
+                    {
+                        "name": "VALOR_HOMOLOGADO_UNITARIO",
+                        "title": "Valor Unit\u00e1rio Homologado",
+                        "type": "number",
+                        "format": "default",
+                        "decimalChar": ",",
+                        "description": "Valor unit\u00e1rio final licitado ou comprado"
+                    },
+                    {
+                        "name": "VALOR_REFERENCIA",
+                        "title": "Valor de Refer\u00eancia\u00a0",
+                        "type": "number",
+                        "format": "default",
+                        "decimalChar": ",",
+                        "description": "Valor estimado de um determinado bem ou servi\u00e7o, obtido por meio de pesquisa de mercado ou cadastro de pre\u00e7os."
+                    },
+                    {
+                        "name": "VALOR_HOMOLOGADO",
+                        "title": "Valor Homologado\u00a0",
+                        "type": "number",
+                        "format": "default",
+                        "decimalChar": ",",
+                        "description": "Valor final licitado ou comprado"
+                    }
+                ],
+                "missingValues": [
+                    "NA"
+                ]
+            },
+            "dialect": {
+                "delimiter": ";"
+            }
+        }
+    ],
+    "keywords": [
+        "COVID-19",
+        "coronavirus"
+    ],
+    "name": "compras-emergenciais-covid-19",
+    "title": "Compras Emergenciais COVID-19",
+    "description": "Este conjunto de dados cont\u00e9m rela\u00e7\u00e3o das contrata\u00e7\u00f5es celebradas pelo Governo de Minas Gerais com fulcro na Lei Federal n. 13.979 de 06 de fevereiro de 2020 para enfrentamento da emerg\u00eancia de sa\u00fade p\u00fablica de import\u00e2ncia internacional decorrente do coronav\u00edrus.",
+    "private": "false",
+    "state": "active",
+    "commit": "af7d6543561d9133c0ae2461f86d8e0b62150162",
+    "owner": "Jao e Maria"
+}
