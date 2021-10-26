@@ -9,7 +9,7 @@ Como manipular e atualizar arquivos json utilizando python, [a linguagem de prog
 
 Repositório criado a partir deste [template](https://github.com/gabrielbdornas/python-boilerplate-template) com código fonte básico para iniciar trabalhos em Python :snake:.
 
-Um breve :movie_camera: [tutorial no YouTube]() foi criado para facilitar o entendimento!
+Um breve :movie_camera: [tutorial no YouTube](https://youtu.be/9SB118VcjWQ) foi criado para facilitar o entendimento!
 
 Não deixe de conferir os outros vídeos sobre Python incluídos na mesma [playlist](https://youtube.com/playlist?list=PL3IzYsZ_t_16vdpHyVNii1D9UJyDM-ATc) do vídeo citado acima.
 
@@ -35,8 +35,14 @@ $ source venv/bin/activate
 
 ```
 $ pip install -r requirements.txt
-
 ```
+
+## Links de referência
+
+- [How to update a JSON file in Python](https://www.kite.com/python/answers/how-to-update-a-json-file-in-python)
+- [How to update json file with python - Stackoverflow](https://stackoverflow.com/questions/13949637/how-to-update-json-file-with-python)
+- [JSON dumps format Python](https://stackoverflow.com/questions/37398301/json-dumps-format-python/37398392)
+- [NameError: name 'json' is not defined](https://stackoverflow.com/questions/47412518/nameerror-name-json-is-not-defined)
 
 ## Encontrou algo errado no código ou quer melhorá-lo
 
