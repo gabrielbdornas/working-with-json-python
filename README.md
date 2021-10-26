@@ -3,11 +3,13 @@ Python boilerplate :ramen:
 
 ## Sobre este repositório :open_book:
 
-Repositório continuação do trabalho realizado [aqui](https://github.com/gabrielbdornas/python-boilerplate), criado como código fonte básico para iniciar trabalhos em Python :snake:.
+Cansado de realizar atividades repetidas? Porque não automatizar sua rotina e aproveitar algumas horas extras para fazer algo mais interessante, como estudar, praticar alguma atividade física ou ler um bom livro!
 
-Criação de um [repositório template no github](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository), bem como a utilização do mesmo para iniciar [novos projetos](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-new-repository) foi utilizado como referência
+Como manipular e atualizar arquivos json utilizando python, [a linguagem de programação mais popular na atualidade](https://statisticstimes.com/tech/top-computer-languages.php). Este exemplo simples, misturado com sua criatividade te ajudará a trocar horas intermináveis de trabalho repetido por um processo de automatização bem mais divertido.
 
-Um breve :movie_camera: [tutorial no YouTube](https://youtu.be/S5cWAxUwxVk) foi criado para facilitar o entendimento e a construção do repositório.
+Repositório criado a partir deste [template](https://github.com/gabrielbdornas/python-boilerplate-template) com código fonte básico para iniciar trabalhos em Python :snake:.
+
+Um breve :movie_camera: [tutorial no YouTube]() foi criado para facilitar o entendimento!
 
 Não deixe de conferir os outros vídeos sobre Python incluídos na mesma [playlist](https://youtube.com/playlist?list=PL3IzYsZ_t_16vdpHyVNii1D9UJyDM-ATc) do vídeo citado acima.
 
@@ -19,18 +21,21 @@ Se você gostou deste conteúdo e deseja auxiliar na criação de mais material 
 
 Algo não funcionou, ficou com alguma dúvida ou gostaria de aprofundar algum ponto específico não detalhando no vídeo ou no código? Envie um e-mail para pagueumcafepgabriel@gmail.com para agendarmos uma sessão de tutoria online.
 
-## Utilizar boilerplate :open_book:
+## Brincar com o código :open_book:
 
-- Criação de seu repositório a [partir do template](https://github.com/gabrielbdornas/python-boilerplate-template/generate)
-- Clonando o projeto:
+- Faça o fork do projeto no github e o clone para sua máquina.
+- Criando e ativando ambiente python localmente (ambiente linux):
 
 ```Python
-# Não copie e cole o comando abaixo cegamente, modifique <github-username> e <nome-do-seu-projeto>
-$ git clone https://github.com/<github-username>/<nome-do-seu-projeto>
-$ python3.9 -m venv venv
+$ python3 -m venv venv
 $ source venv/bin/activate
+```
+
+- Seu projeto cresceu? Inclua no arquivo requirements.txt todas as bibliotecas necessárias p seu projeto.
+
+```
 $ pip install -r requirements.txt
-# inclua no arquivo requirements.txt todas as bibliotecas necessárias p seu projeto
+
 ```
 
 ## Encontrou algo errado no código ou quer melhorá-lo
